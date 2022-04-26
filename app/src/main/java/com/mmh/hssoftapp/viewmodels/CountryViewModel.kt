@@ -44,9 +44,9 @@ class CountryViewModel @Inject constructor(
                         val countryObj = countriesObj.getJSONObject(i)
                         val country = Country(code = countryObj.getString("code").toString(), name = countryObj.getString("name").toString())
                         repository.insertCountry(country)
-                        val list = repository.getAllCountries()
-                        _countryList.value = CountryEvent.Success(list)
                     }
+                    val list = repository.getAllCountries()
+                    _countryList.value = CountryEvent.Success(list)
                 }
                 is Resource.Error -> {
                     val list = repository.getAllCountries()

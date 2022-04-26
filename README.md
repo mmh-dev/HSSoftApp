@@ -1,4 +1,4 @@
-# Demo app, which  works with GraphQL server, written according to Clean Architecture an MVVM pattern.
+# Demo app, which  works with GraphQL server, written according to Clean Architecture on MVVM pattern.
 
 An application that shows a list of countries and detailed information about the selected country in
 separate window. The data is obtained from GraphQL server, but stored on local database and can

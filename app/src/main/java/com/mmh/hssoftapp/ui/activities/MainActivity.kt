@@ -13,7 +13,8 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private val binding: ActivityMainBinding by lazy {
-        ActivityMainBinding.inflate(layoutInflater) }
+        ActivityMainBinding.inflate(layoutInflater)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,13 +24,5 @@ class MainActivity : AppCompatActivity() {
         } else {
             supportFragmentManager.beginTransaction().replace(R.id.countries_view, ListFragment()).commit()
         }
-    }
-
-    override fun onBackPressed() {
-//        if (resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) {
-//            supportFragmentManager.beginTransaction().replace(R.id.countries_view, ListFragment()).commit()
-//            showToast("backed")
-//        }
-        super.onBackPressed()
     }
 }

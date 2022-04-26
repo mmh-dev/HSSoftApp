@@ -4,7 +4,6 @@
 	<string name="no_internet">No internet connection, data fetched from local database</string>
 	<string name="code">Code:</string>
 	<string name="name">Name:</string>
-	<string name="native_name">Native name:</string>
 	<string name="phone_code">Phone code:</string>
 	<string name="capital">Capital:</string>
 	<string name="currency">Currency:</string>

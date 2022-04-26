@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout-land/activity_main.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout/fragment_details.xml" value="0.25" />
+        <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout/country_list.xml" value="0.25" />
+        <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout/fragment_details.xml" value="0.264" />
         <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout/fragment_item.xml" value="0.25" />
         <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout/fragment_item_list.xml" value="0.2359375" />
         <entry key="..\:/Users/murod/AndroidStudioProjects/HSSoftApp/app/src/main/res/layout/fragment_list.xml" value="0.25" />
+        <entry key="..\:/Users/murod/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_activated_1.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -1,15 +1,18 @@
 package com.mmh.hssoftapp.data.entities
 
+import androidx.annotation.NonNull
 import androidx.room.Entity
+import androidx.room.PrimaryKey
 
-@Entity
+
+@Entity (tableName = "country_database")
 data class Country(
-    val code: String? = null,
-    val name: String? = null,
-    val native: String? = null,
-    val capital: String? = null,
-    val phone: String? = null,
-    val currency: String? = null,
-    val languages: List<String>? = null,
-    val states: List<String>? = null
+    @PrimaryKey
+    @NonNull
+    var code: String = "",
+    var name: String? = null,
+    var native: String? = null,
+    var phone: String? = null,
+    var capital: String? = null,
+    var currency: String? = null
 )
